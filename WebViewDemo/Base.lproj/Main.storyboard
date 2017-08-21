@@ -113,29 +113,30 @@
                                             <action selector="goBackClicked" destination="3mD-4F-dtq" id="pa2-O5-7jA"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="D6Z-0T-9gf"/>
+                                    <barButtonItem width="30" style="plain" systemItem="fixedSpace" id="D6Z-0T-9gf"/>
                                     <barButtonItem systemItem="fastForward" id="RhD-gA-L2M">
                                         <connections>
                                             <action selector="goForwardClicked" destination="3mD-4F-dtq" id="E8T-4h-SCK"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="tPX-rp-AYd"/>
+                                    <barButtonItem width="30" style="plain" systemItem="fixedSpace" id="tPX-rp-AYd"/>
                                     <barButtonItem systemItem="refresh" id="iEO-cG-eDO">
                                         <connections>
                                             <action selector="refreshClicked" destination="3mD-4F-dtq" id="e8l-a0-M7o"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="ncY-Tx-FMd"/>
+                                    <barButtonItem width="40" style="plain" systemItem="fixedSpace" id="ncY-Tx-FMd"/>
                                     <barButtonItem title="Messages" style="done" id="qm2-HO-4WJ">
                                         <connections>
                                             <action selector="callbacksClickedWithSender:" destination="3mD-4F-dtq" id="9Br-13-XyI"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem width="40" style="plain" systemItem="fixedSpace" id="w4S-bp-6z9"/>
                                 </items>
                             </toolbar>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Vx3-Xk-5ex">
-                                <rect key="frame" x="168.60393873498288" y="317.60940919036807" width="37" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="168" y="316" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="color" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                         </subviews>
@@ -188,7 +189,7 @@
                                 <color key="sectionIndexBackgroundColor" red="0.088848195970058441" green="0.72359591722488403" blue="0.78248351812362671" alpha="0.77367829619999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MenuCell" textLabel="Z3N-3D-oc4" style="IBUITableViewCellStyleDefault" id="kBA-QW-6o6" customClass="MenuCell" customModule="WebViewDemo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="56" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kBA-QW-6o6" id="Uj7-6Y-RZh">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
