@@ -9,7 +9,8 @@
 import UIKit
 import WebKit
 
-let nativeToJS = "App.parseMessageFromNativeApp('{\"message\":\"Hello from iOS!\"}')"
+//let nativeToJS = "App.parseMessageFromNativeApp('{\"message\":\"Hello from iOS!\"}')"
+let nativeToJS = "App.parseMessageFromNativeApp('{\"type\":\"data\",\"subtype\":\"message\",\"body\":{\"message\":{\"en\":\"Hello from Native App!\",\"fr\":\"Bonjour from Native App!\"}}}')"
 let jsToNative = "parseWebAppMessage"
 
 class WebViewController: UIViewController, WKNavigationDelegate, WKScriptMessageHandler, WKUIDelegate {

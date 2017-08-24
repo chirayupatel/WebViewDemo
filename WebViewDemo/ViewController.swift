@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var textField : UITextField!
-    var url = "https://developer-workflow.s3.amazonaws.com/sdks/debug/message.html"
+    var url = "https://s3.amazonaws.com/tdgotransit.flybits.com/utils/message.html"
 
     override func viewDidLoad() {
         super.viewDidLoad()
