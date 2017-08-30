@@ -65,6 +65,9 @@ class WebViewController: UIViewController, WKNavigationDelegate, WKScriptMessage
         self.webView = webView
         updateView()
 
+        // Disables bounces past edge of content and back again
+        self.webView.scrollView.bounces = false
+        
         self.view.bringSubview(toFront: activityView)
     }
     
